@@ -1,0 +1,119 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    background-color: grey;
+}
+.container{
+    background-image: linear-gradient(180deg,black,crimson);
+    width: 400px;
+    height:510px;
+    transition-property: height,width;
+    transition-duration: .2s;
+    margin: 0 auto;
+    margin-top: 70px; 
+    border-radius:8px;
+}
+.container:hover{
+    width: 410px;
+    height: 515px;
+   /** box-shadow: 5px 5px 20px black;
+    box-shadow: y-up y-down x-right x-left rgba(color with opacity)
+    **/
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.4);
+    
+}
+.container h1{
+    margin: 5px auto;
+    color: lemonchiffon;
+    text-align: center;
+     font-family: 'Raleway', sans-serif;
+}
+.container h1:hover{
+    border-bottom: 2px solid lime;
+    border-top: 2px solid lime;
+    border-radius: 2rem;
+    color:red;
+}
+.display{
+    width: 395px;
+    height: 100px;
+    background-color: darkcyan;
+    opacity:.4;
+    margin: 0 auto;
+}
+.lulu{
+     width: 300px;
+    height: 90px;
+    border:0 0 solid black;
+    margin-left: 45px;
+    margin-top: 2px;
+    text-align: right;
+    padding: 0  5px;
+    letter-spacing: 3px;
+    font-size:50px;
+    font-weight: bolder;
+   
+    
+}
+.lulu:hover{
+    box-shadow: 2px 4px 20px black;
+}
+.buttons{
+    text-align: center;
+    /**under the buttons we put text
+    **/
+    margin-top: 8px;
+    
+}
+.bt{
+    font-size:0;
+    
+}
+.btn{
+    width:90px;
+    height: 65px;
+    font-weight:700;
+    font-size: 20px;
+    background-color:black;
+    color:skyblue;
+}
+.btn:hover{
+    background-color:rgb(131, 255, 0) ;
+    color:black;
+}
+.bt:hover{
+    background-color:yellowgreen;
+}
+.bl{
+    background-color: crimson;
+}
+.bl:hover{
+    background-color: rgba(0,72,250,0.6);
+    color:black;
+}
+.bb{
+    background-color: skyblue;
+    color:black;
+}
+.bb:hover{
+    background-color: darkred;
+    color:white;
+}
+.bk{
+    background-color: orange;
+      color:black;
+}
+.bk:hover{
+    background-color: rgb(0, 255, 195);
+    color:black;
+}
+.l{
+    background-color: burlywood;
+    color: black;
+}
+.l:hover{
+    background-color: rgb(255, 131, 0);
+    color:black;
+}
